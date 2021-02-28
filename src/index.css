@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f1ebeb;
+}
+
+.container {
+    max-width: 90%;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    padding: 20px;
+    margin: 10px auto auto;
+    min-height: 90vh;
+}
+
+.header {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loading,
+.loading:before,
+.loading:after {
+    background: #000;
+    -webkit-animation: load1 1s infinite ease-in-out;
+    animation: load1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em;
+}
+
+.loading {
+    color: #000;
+    text-indent: -9999em;
+    margin: 208px auto;
+    position: relative;
+    font-size: 11px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+.loading:before,
+.loading:after {
+    position: absolute;
+    top: 0;
+    content: '';
+}
+
+.loading:before {
+    left: -1.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.loading:after {
+    left: 1.5em;
+}
+
+@-webkit-keyframes load1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+@keyframes load1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+/*.container:hover{*/
+/*  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+/*}*/
+
+.file-upload-container {
+    margin: auto;
+    width: 200px;
+}
+
+
+.image-container img {
+    max-width: 750px;
+}
+
+.image-container {
+    max-width: 750px;
+    margin: 20px auto auto;
+}
+
+.og-image-label {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.label-instances {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.label-instance canvas {
+    max-width: 200px;
+}
+
+.label-instance {
+    margin: auto;
+}
+
+.label-obj-container {
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.labels-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ppe-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ppe-person-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px auto;
+}
+
+.ppe-person-image {
+    margin-bottom: 5px;
+}
+
+.ppe-bodypart {
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #aaa9a9;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.faces-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.face-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.face-instance canvas {
+    max-width: 150px;
+}
