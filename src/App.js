@@ -46,7 +46,7 @@ export default App;
 async function makeRequest(imageBytes, setIsLoading, setResult) {
   setIsLoading(true);
   const url =
-    "https://t6oil6mf9e.execute-api.us-east-1.amazonaws.com/prod/recognise";
+    "https://t6oil6mf9e.execute-api.us-east-1.amazonaws.com/prod/recognise"; // Use the URL you get from API Gateway here
 
   const body = {
     image: imageBytes,
