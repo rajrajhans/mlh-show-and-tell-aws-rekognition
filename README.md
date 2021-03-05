@@ -5,15 +5,15 @@ This repository contains the code for the ImageAnalyzer application that I live-
 ## Screenshots
 Here are some screenshots of the results on a few sample images as input.
 
-![Screenshot](readme_resources\ss_1.png)
-![Screenshot](readme_resources\ss_2.png)
-![Screenshot](readme_resources\ss_3.png)
-![Screenshot](readme_resources\ss_4.png)
-![Screenshot](readme_resources\ss_5.png)
-![Screenshot](readme_resources\ss_6.png)
-![Screenshot](readme_resources\ss_7.png)
-![Screenshot](readme_resources\ss_8.png)
-![Screenshot](readme_resources\ss_9.png)
+![Screenshot](readme_resources/ss_1.png)
+![Screenshot](readme_resources/ss_2.png)
+![Screenshot](readme_resources/ss_3.png)
+![Screenshot](readme_resources/ss_4.png)
+![Screenshot](readme_resources/ss_5.png)
+![Screenshot](readme_resources/ss_6.png)
+![Screenshot](readme_resources/ss_7.png)
+![Screenshot](readme_resources/ss_8.png)
+![Screenshot](readme_resources/ss_9.png)
 
 ## Notes from the talk
 
