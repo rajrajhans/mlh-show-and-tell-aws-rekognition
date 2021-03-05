@@ -38,12 +38,12 @@ Here are some screenshots of the results on a few sample images as input.
             - A compute service that we can use to run our code in the cloud without provisioning and managing servers
                 - because of which it is also called as "serverless compute"
 
-            ![Serverless Applications0](readme_resources\serverless_applications.png)
+            ![Serverless Applications0](readme_resources/serverless_applications.png)
 
         - It can scale automatically, both *up* and *down*. You pay only for what you use.
         - Lambda Function Lifecycle
 
-            ![Lambda function lifecycle](readme_resources\lambda_lifecycle.png)
+            ![Lambda function lifecycle](readme_resources/lambda_lifecycle.png)
 
             - When our first request comes in, AWS creates a container for us and downloads our code into the container.
             - Then, our lambda functions are loaded into the memory.
@@ -59,7 +59,7 @@ Here are some screenshots of the results on a few sample images as input.
         - What is it?
             - One way to access our Lambda functions from the outside world.
 
-                ![API Gateway](readme_resources\api_gateway.png)
+                ![API Gateway](readme_resources/api_gateway.png)
 
         - What is it, really?
             - A fully managed service for creating, publishing, maintaining, monitoring, and securing REST, HTTP or WebSocket APIs.
